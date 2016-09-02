@@ -63,7 +63,7 @@ i.e. inverted to how they are normally written in maths papers.
 
 https://en.wikipedia.org/wiki/Angle_of_view
 
-Alpha in [0, pi/2].
+Alpha in [0, pi].
 
 Bigger angle (wider field of view) - further away items appear smaller (ZOOM OUT).
 
