@@ -41,4 +41,12 @@ sudo ctags -e -R
 make clean; make; ./hello-gl
 ```
 
+### Running
+
+Vertex shaders can be specified as an argument on the command line:
+```
+make; ./hello-gl naive-perspective-rotation.v.glsl
+```
+
+
 i.e. `Makefile` is a symlink to `Makefile.MacOSX`
