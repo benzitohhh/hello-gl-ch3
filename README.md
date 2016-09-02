@@ -53,6 +53,11 @@ i.e. `Makefile` is a symlink to `Makefile.MacOSX`
 
 
 
+## Note that GL matrices are column-major
+i.e. inverted to how they are normally written in maths papers.
+
+
+
 
 ## Angle of View
 
