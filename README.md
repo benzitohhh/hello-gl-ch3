@@ -50,3 +50,22 @@ make; ./hello-gl naive-perspective-rotation.v.glsl
 
 
 i.e. `Makefile` is a symlink to `Makefile.MacOSX`
+
+
+
+
+## Angle of View
+
+https://en.wikipedia.org/wiki/Angle_of_view
+
+Alpha in [0, pi/2].
+
+Bigger angle (wider field of view) - further away items appear smaller (ZOOM OUT).
+
+Smaller angle (narrower field of view) - further away items appear less different to nearer items (ZOOM IN).
+
+
+
+## Viewing Frustrum
+
+https://en.wikipedia.org/wiki/Viewing_frustum
