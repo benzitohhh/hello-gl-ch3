@@ -55,7 +55,6 @@ mat4 rotate_x(float theta)
 void main()
 {
     float BEN = radians(0.0); // i.e. between 0 and 90 degrees
-
     float ROTATE_THETA = BEN;
     float TRANSLATE_THETA = 1.0;
 
