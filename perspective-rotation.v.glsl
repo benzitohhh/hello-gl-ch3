@@ -22,7 +22,8 @@ void main()
         vec4(0.0, -sin(timer),  cos(timer), 0.0),
         vec4(0.0,         0.0,         0.0, 1.0)
     );
-    mat4 scale = mat4(
+
+    const mat4 scale = mat4(
         vec4(4.0/3.0, 0.0, 0.0, 0.0),
         vec4(    0.0, 1.0, 0.0, 0.0),
         vec4(    0.0, 0.0, 1.0, 0.0),

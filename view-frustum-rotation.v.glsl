@@ -51,11 +51,19 @@ mat4 rotate_x(float theta)
     );
 }
 
+
 void main()
 {
-    gl_Position = view_frustum(radians(45.0), 4.0/3.0, 0.5, 5.0)
-        * translate(cos(timer), 0.0, 3.0+sin(timer))
-        * rotate_x(timer)
+    float BEN = radians(0.0); // i.e. between 0 and 90 degrees
+
+    float ROTATE_THETA = BEN;
+    float TRANSLATE_THETA = 1.0;
+
+    gl_Position = view_frustum(radians(70.0), 4.0/3.0, 0.5, 5.0)
+        //* translate(cos(timer), 0.0, 3.0+sin(timer))
+        * translate(cos(TRANSLATE_THETA), 0.0, 3.0+sin(TRANSLATE_THETA))
+        //* rotate_x(timer)
+        * rotate_x(ROTATE_THETA)
         * scale(4.0/3.0, 1.0, 1.0)
         * position;
     texcoord = position.xy * vec2(0.5) + vec2(0.5);
